@@ -1,6 +1,7 @@
 import random 
 
 # conditions true, player wins
+# r > s, s> p, p> r
 def player_wins(player, opponent):
     if (player == 'r' and opponent == 's') or (player == 'p' and opponent == 'r') or (player == 's' and opponent == 'p'):
         return True
